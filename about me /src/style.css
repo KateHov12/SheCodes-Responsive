@@ -1,0 +1,90 @@
+        h1,
+        h2 {
+            display: block;
+            text-align: center;
+        }
+
+        .name {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px;
+        }
+
+        a {
+            display: block;
+        }
+
+        #buttons {
+            display: flex;
+            /* flex-direction: row; */
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        #buttons a {
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        #contactbtn{
+            border: 2px solid rgb(187, 99, 209);
+            padding: 15px 10px;
+            background: rgb(238, 196, 238);
+            box-shadow: 0 5px 10px rgb(70, 43, 70);
+        }
+
+        #contactbtn:hover {
+            background-color: white;
+        }
+
+        #aboutbtn {
+            border: 2px solid rgb(187, 99, 209);
+            padding: 15px 10px;
+            box-shadow: 0 5px 10px rgb(70, 43, 70);
+        }
+
+        #aboutbtn:hover {
+            background-color: rgb(232, 217, 246);
+        }
+
+        a {
+            display: block;
+            text-align: center;
+        }
+
+        h1{
+            display: block;
+            text-align: center;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 60px;
+        }
+
+        h2 {
+            display: block;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+      p {
+            background: rgb(239, 234, 244);
+            padding: 20px;
+            border-radius: 4px;
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: center;
+            margin: 20px;
+        } 
+       
+        .column {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            max-width: 100%;
+            min-height: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom: 15px;
+            }
+        
+            #contact {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 50px;
